@@ -1,0 +1,42 @@
+.boton_insertar{
+	/*margin-left: 20vw;*/
+	font-size: 20px;
+	background-color: #333;
+	border: 1px solid #332;
+	border-radius: 30px;
+	color: #ffffff;
+	width: 30vw;
+	height: 5vh;
+}
+
+@media (min-width: 767px){
+	.contenedor_insertar{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+.boton_insertar:hover{
+	background-color: #141313;
+	border: 1px solid #403B3B;
+}
+
+@media only screen and (max-width: 768px){
+
+	.boton_insertar{
+	background-color: #333;
+    border: 1px solid #332;
+    border-radius: 20px;
+    color: #ffffff;
+    width: 100%;
+    height: 6vh;
+	}
+	.contenedor_insertar{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}

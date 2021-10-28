@@ -1,0 +1,304 @@
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////----------------inicio-----------------///////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media (min-width: 767px) {
+    .main{
+        position: absolute;
+        top: 6rem;
+    }
+
+    .contenedor_principal_ver_tablas{
+        /*width: 90vw;*/
+        height: 60vh;
+        /*border: 1px solid black;*/
+        display: inline-flex;
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+}
+
+.separacion_1{
+
+    width: 30vw;
+    height: 15vh;
+    /*border: 1px solid black;*/
+    margin-top: 2vh;
+    margin-left: 2vw;
+
+}
+
+.separacion_2{
+
+    width: 30vw;
+    height: 15vh;
+    /*border: 1px solid black;*/
+    margin-top: 2vh;
+    margin-left: 20vw;
+
+}
+
+.contenedor_redireccion_tablas{
+    margin-left: 1vw;
+    width: 28vw;
+    height: 20vh;
+    /*border: 1px solid black;*/
+    border-radius: 20px;
+    text-align: center;
+}
+
+.contenedor_redireccion_tablas form{
+    margin-top: -13vh;
+    
+}
+
+
+
+#ver_tabla_tipo_producto{
+
+    margin-top: 1vh;
+    margin-left: 1vw;
+
+}
+
+
+#ver_tabla_empresas{
+
+    margin-top: 10vh;
+    margin-left: 1vw;
+
+}
+
+#ver_tabla_producto{
+
+    margin-top: 10vh;
+    margin-left: 1vw;
+
+}
+
+
+
+img{
+
+    width: 25vw;
+    height: 18vh;
+    border-radius: 30px;
+
+}
+
+
+
+.boton_ver_tablas{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #272626;
+    border-radius: 6px;
+    border: 1px solid #2D2D2C;
+
+}
+
+.boton_ver_tablas:hover{
+
+    color: white;
+    background-color: #393838;
+    border: 1px solid #3D3D3D;
+
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+    .main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-45%, -50%);
+        z-index: revert;
+    }
+    
+    .contenedor_redireccion_tablas{
+        align-items: center;
+        margin-left: 1vw;
+        width: 28vw;
+        height: 20vh;
+    }
+
+    .contenedor_principal_ver_tablas{
+        height: 60vh;
+        display: inline-flex;
+    }
+
+    .contenedor_redireccion_tablas form{
+        margin-top: -11vh;
+    
+    }
+
+
+
+    #ver_tabla_tipo_producto{
+
+        margin-top: 1vh;
+        margin-left: 1vw;
+
+    }
+
+
+    #ver_tabla_empresas{
+
+        margin-top: 10vh;
+        margin-left: 1vw;
+
+    }
+
+    #ver_tabla_producto{
+
+        margin-top: 10vh;
+        margin-left: 1vw;
+
+    }
+
+
+
+    img{
+
+        width: 30vw;
+        height: 15vh;
+
+    }
+
+
+
+    .boton_ver_tablas{
+
+        margin-left: 3vw;
+        width: 22vw;
+        height: 5vh;
+        padding: 1px;
+        font-size: 16px;
+
+    }
+
+    .separacion_1{
+
+        margin-left: -7vw;
+        margin-top: 3vh;
+    }
+
+    .separacion_2{
+
+        margin-left: 15vw;
+        margin-right: 5vw;
+    }
+
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .contenedor_principal_ver_tablas{
+        /*width: 90vw;*/
+        height: 60vh;
+        /*border: 1px solid black;*/
+        display: inline-flex;
+        position: absolute;
+        z-index: -1;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+    }
+    
+    .contenedor_redireccion_tablas{
+        align-items: center;
+        margin-left: 1vw;
+        width: 25vw;
+        height: 20vh;
+    }
+
+    .contenedor_redireccion_tablas form{
+        margin-top: -11vh;
+    
+    }
+
+    #ver_tabla_tipo_producto{
+
+        margin-top: 1vh;
+        margin-left: 1vw;
+
+    }
+
+
+    #ver_tabla_empresas{
+
+        margin-top: 10vh;
+        margin-left: 1vw;
+
+    }
+
+    #ver_tabla_producto{
+
+        margin-top: 10vh;
+        margin-left: 1vw;
+
+    }
+
+
+
+    img{
+
+        width: 44vw;
+        height: 15vh;
+
+    }
+
+    .boton_ver_tablas{
+
+        margin-left: 3vw;
+        width: 38vw;
+        height: 5vh;
+        padding: 1px;
+        font-size: 15px;
+
+    }
+
+    .separacion_1{
+
+        margin-left: -7vw;
+        margin-top: 3vh;
+    }
+
+    .separacion_2{
+
+        margin-left: 15vw;
+        margin-right: 5vw;
+    }
+
+}

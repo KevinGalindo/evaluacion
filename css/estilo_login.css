@@ -1,0 +1,178 @@
+
+/*aquí se modifican los estilo de todo el cuerpo*/
+body{
+  font-family: tahoma;
+  background:radial-gradient(#BCF5F4, #5ED6D2, #3A9996);
+  /*background-repeat: no-repeat;*/
+}
+
+/*aquí se modifica el estilo del div que contiene dentro el login*/
+.box-login{
+
+width: 17vw;
+height: 50vh;
+display: block;
+background-color: white;
+border-radius: 30px;
+margin-top: 10%;
+margin-left: 40%;
+border: 0,5px solid #C4D4D3;
+
+
+}
+
+.login{
+  text-align: center;
+}
+
+/*aquí se modifica el logo de fondo emprender*/
+.img_logo{
+  
+  margin-top: 3vh;
+  width: 200px;
+  height: 80px;
+}
+
+/*Esto hace que cambié el estilo de los inputs para que se miren más atractivos*/
+
+.input_1{
+
+  margin-top: 3vh;
+  margin-left: 0.5vh;
+  width: 13vw;
+  height: 5vh;
+  border: 1px solid #C1C7C0;
+  background: white;
+  border-radius: 5px;
+}
+
+/*Este codigo cambia el color, el tamaño, los bordes y el estilo del botón del login*/
+
+.boton_login{
+  margin-top: 3vh;
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #4FD653 ;
+  border-radius: 6px;
+  border: 1px solid #8EDE86;
+}
+
+/*Esto hace una mini-animación para que se oscurezca el botón como si fuese una animación*/ 
+
+.boton_login:hover{
+  color: white;
+  background-color: #4DCA50;
+}
+
+
+/*Esto cambia el color y el estilo del link para recuperar la cuenta*/
+
+
+/*.link{
+  text-decoration: none;
+  color: #3483EE;
+}*/
+
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+/* Esto es para el diseño en tamaño tablet */
+
+@media screen and (max-width: 1024px){
+
+  .box-login{
+
+  width:60vw;
+  height: 60vh;
+  margin-top: 20vh;
+  margin-left: 23vw;
+  }
+
+/*aquí se modifica el logo de fondo emprender*/
+.img_logo{
+  
+  margin-top: 3vh;
+  width: 40vw;
+  height: 10vh;
+}
+
+/*Esto hace que cambié el estilo de los inputs para que se miren más atractivos*/
+
+.input_1{
+
+  font-size: 2vh;
+  margin-top: 4vh;
+  margin-left: 3px;
+  width: 35vw;
+  height: 6vh;
+  border: 1px solid #C1C7C0;
+  background: white;
+  border-radius: 5px;
+}
+
+/*Este codigo cambia el color, el tamaño, los bordes y el estilo del botón del login*/
+
+.boton_login{
+  margin-top: 6vh;
+  padding: 10px;
+  font-size: 3.5vh;
+}
+
+}
+
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+
+/* Esto es para el diseño en tamaño celular */
+
+@media screen and (max-width: 768px){
+
+  .box-login{
+
+  width:60vw;
+  height: 60vh;
+  margin-top: 20vh;
+  margin-left: 23vw;
+  }
+
+.login{
+
+    text-align: center;
+}
+
+/*aquí se modifica el logo de fondo emprender*/
+.img_logo{
+  
+  margin-top: 3vh;
+  width: 40vw;
+  height: 10vh;
+}
+
+/*Esto hace que cambié el estilo de los inputs para que se miren más atractivos*/
+
+.input_1{
+
+  margin-top: 4vh;
+  margin-left: 3px;
+  width: 35vw;
+  height: 6vh;
+  border: 1px solid #C1C7C0;
+  background: white;
+  border-radius: 5px;
+}
+
+/*Este codigo cambia el color, el tamaño, los bordes y el estilo del botón del login*/
+
+.boton_login{
+  margin-top: 6vh;
+  padding: 10px;
+  font-size: 20px;
+}
+
+}

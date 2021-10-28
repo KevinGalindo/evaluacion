@@ -1,0 +1,323 @@
+.Body{
+    /*overflow: hidden;*/
+    z-index: 0;
+    flex: 1 0 auto;
+    position: relative;
+    padding-top: 20px;
+}
+.Body>div {
+    width: 90%;
+}
+@media (min-width: 767px) {
+    .Body{
+        width: 79%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate( -37%, 12%);
+    }
+}
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.Rows, .Sp20[class*=Row] {
+    margin: -20px -10px 20px;
+    
+}
+@media (min-width: 767px){
+.BX[class*=Row] {
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    }
+}
+@media (min-width: 767px){
+.BX.Rows>*, 
+.BX.Row.BFluid>.BFixed {
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    max-width: 100%;
+    }
+}
+@media (min-width: 767px){
+.BX.Row.BFluid>* {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    }
+}
+.Rows>*, .Sp20[class*=Row]>* {
+    padding: 20px 10px 0;
+}
+@media (min-width: 767px){
+.SidebarA {
+    width: 290px;
+    }
+}
+[class*=Row]>* {
+    min-width: 0;
+}
+.imgCover {
+    max-width: 270px;
+    /*margin-left: auto;*/
+    margin-right: auto;
+}
+.imgCover {
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.imgCover .Image {
+    margin-bottom: 0;
+}
+.imgCover .Image {
+    position: relative;
+    max-width: 260px;
+    margin: 0 auto 15px;
+}
+.imgCover .Image figure {
+    padding-top: 142.30769230769232%;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary, picture {
+    display: revert;
+}
+.imgCover .Image figure img {
+    position: absolute;
+    left: -25px;
+    top: 0;
+    /*width: 100%;*/
+    height: 100%;
+    border-radius: 3px;
+}
+@media (min-width: 767px){
+    .imgCover .Image figure img {    
+        left: -60%;
+        width: 160%;
+    }
+}
+@media (max-width: 767px){
+    .imgCover .Image figure img {    
+        width: 125%;
+        left: 1vw;
+    }
+    .empres{
+        padding: 15px 7px 20px;
+    }
+}
+figure img {
+    display: block;
+    /*vertical-align: top;*/
+}
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+img {
+    backface-visibility: hidden;
+}
+img {
+    border: 0;
+    /*max-width: 100%;*/
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+.empres {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+    padding: 15px 20px 20px;
+    margin-bottom: 20px;
+}
+.empres .Top {
+    margin-bottom: 15px;
+    position: relative;
+}
+.empres .Top .Title:last-child {
+    margin-bottom: 0;
+}
+.empres .Top .Title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+a, .Title {
+    color: #3b4248;
+}
+.empres .Description {
+    height: auto;
+    margin-bottom: 15px;
+}
+.Description {
+    font-size: 12px;
+}
+.rows {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 767px){
+.col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    /*max-width: 50%;*/
+}
+}
+.empres ul{
+    margin-bottom: 20px;
+}
+ul, ol {
+    padding: 0;
+    margin: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.empres ul li {
+    list-style: none;
+    font-size: 15px;
+    color: #1d95cf;
+    line-height: 30px;
+    position: relative;
+    padding-left: 18px;
+}
+.empres ul li span {
+    color: #101010;
+    width: 115px;
+    display: inline-block;
+}
+.ListPro {
+    margin: -15px -20px -20px;
+}
+nav ul, [class*=Menu], [class*=List] {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.ListPro>li {
+    border-bottom: 1px solid #efefef;
+    position: relative;
+    padding-left: 50px;
+}
+.ListPro>li:not(.Next)>a {
+    margin-right: 70px;
+    padding-right: 10px;
+}
+.ListPro>li>a {
+    display: block;
+    padding: 30px 20px 30px 125px;
+    min-height: 100px;
+}
+.ListPro>li figure {
+    left: 50px;
+}
+.ListPro>li figure, .ListCaps>li figure img {
+    width: 110px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    border-radius: 3px;
+    background-image: url(img/loading.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.ListPro>li figure img {
+    width: 200%;
+    height: 140%;
+    max-width: 100%;
+    object-fit: cover;
+}
+.boton_insertar{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #4FD653;
+    border-radius: 6px;
+    border: 1px solid #8EDE86;
+}
+.boton_insertar:hover{
+    color: white;
+    background-color: #114b12;
+    
+}
+@media (min-width: 767px){
+    .contenedor_insertar {
+        margin-left: 13vw;
+        margin-top: 3vh;
+    }
+}
+@media (max-width: 767px){
+    .boton_insertar{
+        text-decoration: none;
+        padding: 10px 120px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #4FD653;
+        border-radius: 6px;
+        border: 1px solid #8EDE86;
+    }
+    .contenedor_insertar {
+        margin-left: 0vw;
+        margin-top: -8vh;
+    }
+}
+body {
+    color: #9da1a4;
+}
+body {
+    font-size: 15px;
+    line-height: 20px;
+}
+@media (max-width: 767px){
+    .Body {
+        
+    }
+}
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body ::-webkit-scrollbar {
+    background-color: #ccc;
+}
+body ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -mos-box-sizing: border-box;
+}
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: open sans,sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}

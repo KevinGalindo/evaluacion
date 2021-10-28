@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 767px){
+    .insertar_producto{
+        position: absolute; 
+        top: 7rem;
+    }
+    .insertar_empresa{
+       position: relative;
+       top: 50%;
+       left: 0%;
+       transform: (-50%, -50%);
+        
+    }
+
+    .insertar_tipo_empresa{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -2%);
+    }
+
+    .insertar_tipo_producto{
+        position: relative;
+        top: 8rem;
+    }
+}
+.insertar_tipo_empresa{
+    width: 20vw;
+    height: 50vh;
+    padding-top: 3%;
+    text-align: center;
+    
+}
+
+.insertar_empresa{
+    font-size: 16pt;
+    height: 85vh;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.insertar_tipo_producto{
+    width: 20vw;
+    height: 50vh;
+    padding: 10px;
+    text-align: center;
+    /*border: 1px solid #6F6F6F;
+    border-radius: 30px;*/
+    margin-left: 32vw;
+}
+
+.insertar_producto{
+
+    font-size: 15px;
+    width: 20vw;
+    height: 85vh;
+    padding: 10px;
+    text-align: center;
+    /*border: 1px solid #6F6F6F;
+    border-radius: 30px;*/
+    margin-left: 32vw;
+
+}
+
+input{
+    border: solid 1.6px #B1ACAB;
+    width: 13vw;
+    height: 4vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+input:focus{
+    border: solid 1.6px #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.7s;
+}
+
+.input_radio_insertar_empresa{
+    width: 2vw;
+    height: 2vh;
+}
+
+
+/*.insertar_empresa{
+    width: 20vw;
+    margin-left: 33%;
+}*/
+
+.btn_save{
+    cursor: pointer;
+    width: 17vw;
+    height: 5vh;
+    margin-top: 3vh;
+    text-decoration: none;
+    /*padding: 10px;*/
+    font-size: 17px;
+    color: #ffffff;
+    background-color: #4FD653 ;
+    border-radius: 6px;
+    border: 1px solid #8EDE86;
+}
+
+.btn_save:hover{
+    background-color: #4DCA50;
+}
+
+.int_des{
+    border: solid 1.6px #B1ACAB;
+    width: 14vw;
+    height: 10vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.int_des:focus{
+    border: solid 1.6px #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.7s;
+}
+
+
+.alert{
+    width: 100%;
+    background: rgba(248, 248, 248, 0.986);
+    border-radius: 6px;
+    margin: 20px auto;
+}
+.alert .msg_save  a{
+    text-decoration: none;
+    color: rgb(14, 120, 161);
+}
+.msg_error{
+    color: #f10101;
+}
+.msg_save{
+    color: rgb(49, 191, 247);
+}
+.alert p{
+    padding: 10px;
+}
+
+
+
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------TABLETS---------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+/*
+@media only screen and (max-width: 1024px){
+
+
+h1{
+    font-size: 30px;
+}
+
+
+.insertar_tipo_empresa{
+    width: 40vw;
+    height: 50vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.insertar_empresa{
+    
+    font-size: 13px;
+    width: 50vw;
+    height: 85vh;
+    padding: 10px;
+    text-align: center;
+}
+
+.insertar_tipo_producto{
+    width: 20vw;
+    height: 50vh;
+    padding: 10px;
+    text-align: center;
+    margin-left: 32vw;
+    margin-top: 8rem;
+}
+
+.insertar_producto{
+
+    font-size: 15px;
+    width: 20vw;
+    height: 85vh;
+    padding: 10px;
+    text-align: center;
+    margin-left: 32vw;
+
+}
+
+input{
+
+    width: 20vw;
+    height: 4vh;
+}
+
+
+.btn_save{
+    cursor: pointer;
+    width: 25vw;
+    height: 5vh;
+    margin-top: 4vh;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+.int_des{
+    width: 20vw;
+    height: 10vh;
+}
+
+
+
+}
+img{
+    max-height: 170px;
+    top: 24px;
+    border-radius: 5px;
+}
+
+*/
+
+/*----------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------CELULARES---------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+@media only screen and (max-width: 760px){
+
+.insertar_tipo_empresa{
+
+    width: 60vw;
+    height: 60vh;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -2%);
+    padding-top: 5%;
+}
+
+.insertar_empresa{
+    font-size: 15pt;
+    height: 120vh;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 6%;
+    transform: translate( -6%, 1%);
+}
+
+.insertar_tipo_producto{
+    font-size: 15px;
+    width: 70vw;
+    height: 70vh;
+    padding: 10px;
+    text-align: center;
+    /*border: 1px solid #6F6F6F;
+    border-radius: 30px;*/
+    margin-left: -10vw;
+}
+
+.insertar_producto{
+
+    font-size: 15px;
+    width: 80vw;
+    height: 70vh;
+    padding: 10px;
+    text-align: center;
+
+    position: relative;
+    top: 50%;
+    /*left: 50%;*/
+    transform: translate(-29%, 2%);
+    
+
+}
+
+input{
+
+    width: 40vw;
+    height: 4vh;
+}
+
+
+.btn_save{
+    cursor: pointer;
+    width: 56vw;
+    height: 7vh;
+    margin-top: 3vh;
+    padding: 10px;
+    font-size: 17px;
+}
+
+
+.int_des{
+
+    width: 40vw;
+    height: 10vh;
+
+}
+
+.input_radio_insertar_empresa{
+    width: 3.5vw;
+    height: 3.5vh;
+}
+
+
+}

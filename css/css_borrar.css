@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "hide" ,sans-serif;
+}
+
+@media (min-width: 767px) {
+    .data_delete{
+        position: relative;
+        top: 2rem;
+    }
+}
+
+.data_delete{
+    text-align: center;
+}
+
+.data_delete h2{
+    font-size: 25px;
+    color: red;
+    margin: 10px;
+}
+
+.data_delete.ok h2{
+    font-size: 25px;
+    color: #1fa0b2;
+    margin: 10px;
+}
+
+.data_delete p{
+    margin: 10px;
+}
+
+.data_delete span{
+    font-weight: bold;
+    color: teal;
+    font-size: 12pt;
+}
+
+
+.btns{
+    margin: 20px;
+}
+
+.btn{
+    background: #e74c3c;
+    /*font-size: 20px;*/
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn_ok{
+    background: #e74c3c;
+    /*font-size: 20px;*/
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn_ok.ok{
+    background: #1ed12d;
+    /*font-size: 20px;*/
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn_ok.ok:hover{
+    opacity: .6;
+    background: #1ed12d;
+}
+#box{
+    overflow: hidden;
+    background: #f1f1f1;
+    box-shadow: 0 0 20px black;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    padding: 10px;
+    text-align: center;
+    display: none;
+}
+
+#box span{
+    color: #c0392b;
+    font-size: 40px;
+    display: block;
+    margin: 20px 0;
+}
+
+#box h1{
+    color: #e74c3c;
+}
+
+#box h2{
+    color: #333;
+}
+
+.close{
+    font-size: 18px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #2980b9;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.btn_cancel{
+     text-decoration: none;
+    width: 15vw;
+    height: 7vh;
+    background: #2F2C2C;
+    color: #ffffff;
+    padding: 1vh;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.btn_ok{
+
+    text-decoration: none;
+    width: 15vw;
+    height: 7vh;
+    background: #C11A1A;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+.btn_ok:hover{
+     background: #CF1C1C;
+ }
+
+ @media only screen and ( max-width: 768px ){
+
+    .data_delete{
+    padding-top: 5%; 
+    width: 95%;
+    text-align: center;
+    }
+
+    #box{
+        width: 83%;
+    }
+
+}

@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "hide" ,sans-serif;
+}
+
+.form_insertar{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-71%, 5%);
+    width: 60%;
+}
+
+.insertar_empresa{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, 3%);
+    width: 80%;
+}
+
+.galeria_producto{
+
+    width: 30vw ;
+    height: 40vh;
+    /*border: 1px solid;
+    border-radius: 30px;*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 25vw;
+
+}
+
+.form_editar_productos{
+
+    width: 30vw ;
+    height: 40vh;
+    /*border: 1px solid;
+    border-radius: 30px;*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 25vw;
+    font-size: 20px;
+
+}
+
+.input_2{
+    border: solid 1.6px #B1ACAB;
+    width: 13vw;
+    height: 4vh;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    margin: 20px;
+}
+
+.input_2:focus{
+    border: solid 1.6px #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.7s;
+}
+
+.imagin img{
+    width: 18vw;
+    height: 20vh;
+    border-radius: 30px;
+}
+
+.botones_seccion_editar{
+    width: 10vw;
+    height: 5vh;
+    border: 1xp solid #339;
+    border-radius: 12px;
+    background-color: #333;
+    color: #fff;
+    margin: 5px;
+}
+
+.titulos_2{
+
+    margin-left: 34vw;
+
+}
+
+.select{
+    display: none;
+}
+
+.galeria_empresas{
+
+    width: 30vw ;
+    height: 40vh;
+    /*border: 1px solid;
+    border-radius: 30px;*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 25vw;
+
+}
+
+.form_editar_empresas{
+
+    width: 30vw ;
+    height: 60vh;
+    /*border: 1px solid;
+    border-radius: 30px;*/
+    padding: 10px;
+    text-align: center;
+    margin-left: 25vw;
+    font-size: 20px;
+
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
+
+/*
+@media only screen and (max-width:  1024px){
+
+    .galeria_producto{
+
+    width: 50vw ;
+    height: 40vh;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10vw;
+
+}
+
+.form_editar_productos{
+
+    width: 50vw ;
+    height: 40vh;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10vw;
+    font-size: 20px;
+
+}
+
+.input_2{
+
+    width: 25vw;
+    height: 5vh;
+}
+
+img{
+    width: 40vw;
+    height: 20vh;
+    border-radius: 30px;
+}
+
+.botones_seccion_editar{
+
+    width: 30vw;
+    height: 5vh;
+    border: 1xp solid #339;
+    border-radius: 12px;
+
+}
+
+.titulos_2{
+
+    margin-left: 23vw;
+
+}
+
+
+
+.galeria_empresas{
+
+    width: 50vw ;
+    height: 40vh;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10vw;
+
+}
+
+.form_editar_empresas{
+
+    width: 50vw ;
+    height: 70vh;
+    padding: 10px;
+    text-align: center;
+    margin-left: 10vw;
+    font-size: 20px;
+
+}
+
+}*/
+
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width:  760px){
+
+
+    .galeria_producto{
+
+        width: 70vw ;
+        height: 50vh;
+        /*border: 1px solid;
+        border-radius: 30px;*/
+        padding: 10px;
+        text-align: center;
+        margin-left: -8vw;
+
+    }
+
+    .form_editar_productos{
+
+        width: 70vw ;
+        height: 50vh;
+        /*border: 1px solid;
+        border-radius: 30px;*/
+        padding: 10px;
+        text-align: center;
+        margin-left: -8vw;
+        font-size: 20px;
+
+    }
+
+    .input_2{
+
+        width: 40vw;
+        height: 6vh;
+    }
+
+    img{
+        width: 60vw;
+        height: 20vh;
+        border-radius: 30px;
+    }
+
+    .botones_seccion_editar{
+        
+        width: 40vw;
+        height: 5vh;
+        border: 1xp solid #339;
+        border-radius: 12px;
+        MARGIN: 15PX;
+    }
+
+    .titulos_2{
+
+        margin-left: -7vw;
+
+    }
+
+    .galeria_empresas{
+
+        width: 70vw ;
+        height: 50vh;
+        /*border: 1px solid;
+        border-radius: 30px;*/
+        padding: 10px;
+        text-align: center;
+        margin-left: -8vw;
+
+    }
+
+    .form_editar_empresas{
+
+        width: 70vw ;
+        height: 50vh;
+        /*border: 1px solid;
+        border-radius: 30px;*/
+        padding: 10px;
+        text-align: center;
+        margin-left: -8vw;
+        font-size: 20px;
+
+    }
+
+    .insertar_empresa{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-51%, 2%);
+        width: 62%;
+    }
+
+    .form_insertar{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-58%, 2%);
+        width: 60%;
+    }
+
+}

@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "hide" ,sans-serif;
+}
+
+.boton_insertar{
+    font-size: 15px;
+    background-color: #333;
+    border: 1px solid #332;
+    border-radius: 25px;
+    color: #ffffff;
+    width: 40vw;
+    height: 5vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 12%);
+}
+
+@media (min-width: 767px) {
+
+    table tr{
+        text-align: center;
+        margin: 10px;
+        flex-direction: column;
+        margin-bottom: 15px;
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    table tbody tr:nth-child(odd){
+        background: #b0c2f2;
+    }
+
+    table{
+        font-size: 15pt;
+        width: 90%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 12%);
+    }
+}
+
+.boton_insertar:hover{
+    background-color: #141313;
+    border: 1px solid #403B3B;
+}
+
+#container h1{
+    font-size: 35px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 12%);
+}
+
+/*.titulos{
+    margin-left: 37vw !important;
+}*/
+
+
+table{
+    
+    border-collapse: collapse;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    font-family: 'arial';
+    width: flex;
+}
+
+/*#tipo_empresas_tabla{
+
+    margin-left: 35vw !important;
+
+}*/
+
+#productos_tabla{
+
+    margin-left: 20vw !important;
+
+}
+
+
+#tipo_productos_tabla{
+
+    margin-left: 35vw !important;
+
+}
+
+
+table tbody tr:hover{
+    background-color: beige;
+    font-size: 110%;
+    margin: 10px;
+}
+table th{
+    text-align: center;
+    padding: 10px;
+    background: rgb(124, 138, 135);
+    color: white;
+}
+
+/*table tr:nth-child(odd){
+    background: #bfc5dd;
+}*/
+.link_adit{
+    color: aquamarine;
+}
+
+a{
+    text-decoration: none;
+}
+/*==============================paginador=======================================*/
+.paginador ul{
+    padding: 15px;
+    list-style: none;
+    background: #fff;
+    margin-top: 15px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: flex-end;
+}
+.paginador a, .pageSe li{
+    color: black;
+    border: 1px solid #ddd;
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    width: 35px;
+    text-decoration: none;
+}
+.paginador a:hover{
+    background: rgb(168, 159, 159);
+    
+}
+.pageSe{
+    color: #fff;
+    background: gray;
+    border: 1px solid #585656;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------TABLETS-----------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*
+@media only screen and (max-width: 1024px) {
+
+    .boton_insertar{
+    margin-left: 20vw;
+    font-size: 12px;
+    background-color: #333;
+    border: 1px solid #332;
+    border-radius: 25px;
+    color: #ffffff;
+    width: 40vw;
+    height: 4vh;
+    }
+
+    .contenedor_tb{
+        position: relative;
+        z-index: 0;
+    }
+
+    #tipo_empresas{
+    margin-left: 1vw !important;
+    }
+
+
+    .titulos{
+    margin-left: 21vw !important;
+    }
+
+
+    table{
+        margin-left: 25vw;
+        width: flex;
+        flex-wrap: wrap;
+    }
+
+    #tipo_empresas_tabla{
+
+    margin-left: 19vw !important;
+
+    }
+
+
+    #productos_tabla{
+
+    margin-left: 25vw !important;
+
+    }
+
+
+    #tipo_productos_tabla{
+
+    margin-left: 25vw !important;
+
+    }
+
+    table thead{
+        display: none;
+    }
+
+    table tr{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+       border: 1px solid black;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    table td[data-titulo]{
+        display: flex;
+        border: 0;
+    }
+
+    table td[data-titulo]::before{
+        content: attr(data-titulo);
+        width: 100px;
+        font-size: 90%;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+}
+*/
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------CELULARES--------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px) {
+
+    .boton_insertar{
+    font-size: 13px;
+    background-color: #333;
+    border: 1px solid #332;
+    border-radius: 5px;
+    color: #ffffff;
+    width: 44vw;
+    height: 5vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 12%);
+    }
+
+    #tipo_empresas{
+    margin-left: 1vw !important;
+    }
+
+
+    /*.titulos{
+    margin-left: -5vw !important;
+    }*/
+
+
+    table{
+        width: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 5%);
+    }
+
+   /*#tipo_empresas_tabla{
+
+    margin-left: -5vw !important;
+
+    }*/
+
+
+    #productos_tabla{
+
+    margin-left: -5vw !important;
+
+    }
+
+
+    #tipo_productos_tabla{
+
+    margin-left: -5vw !important;
+
+    }
+
+    table thead{
+        display: none;
+    }
+
+    table tr{
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        /*border: 1px solid black;*/
+        padding: 5px;
+        border-radius: 5px;
+        background: #b0f2c2;
+    }
+
+    tr:nth-child(odd){
+        background: #b0c2f2;
+    }
+
+    table td[data-titulo]{
+        display: flex;
+        border: 0;
+    }
+
+    table td[data-titulo]::before{
+        content: attr(data-titulo);
+        width: 100px;
+        font-size: 90%;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+    }
+}

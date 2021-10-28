@@ -1,0 +1,28 @@
+body{
+    font-family: "hide" ,sans-serif;
+}
+
+.contenedor_editar_empresas{
+    display: block;
+    margin-top: 0;
+    margin-left: 50%;
+    text-align:left;
+}
+
+.input{
+    border: solid 1px #B1ACAB;
+    width: 300px;
+    height: 30px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+}
+
+.input:focus{
+    border: solid 1px #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.5s;
+}

@@ -1,0 +1,295 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #f1f1f1;
+}
+
+.btn-small{
+	text-align: center;
+    background: #282828;
+    border-top: 5px solid #888a8a;
+    padding: 20px 0;
+    border-radius: 6px;
+    width: 100%;
+    margin: 0 auto;	
+}
+
+.inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.inputfile + label {
+    max-width: 50%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    display: grid;
+    overflow: hidden;
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile + label svg {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: currentColor;
+    margin-top: -0.25em;
+    margin-right: 0.25em;
+}
+
+.iborrainputfile {
+	font-size: 20px; 
+	font-weight:normal;
+	font-family: 'Lato';
+}
+
+.inputfile-7 + label {
+    color: #333;
+}
+
+.inputfile-7 + label {
+	border: 1px solid #888a8a;
+    background-color: #f1f1f1;
+    padding: 0;
+	position: relative;
+    left: 26%;
+}
+
+.inputfile-7:focus + label,
+.inputfile-7.has-focus + label,
+.inputfile-7 + label:hover {
+    border-color: #9f8465;
+}
+
+.inputfile-7 + label span,
+.inputfile-7 + label strong {
+    padding: 0.625rem 1.25rem;
+}
+
+.inputfile-7 + label span {
+    width: 100%;
+    min-height: 1em;
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.inputfile-7 + label strong {
+    height: 100%;
+    color: #fff;
+    background-color: #888a8a;
+    display: inline-block;
+}
+
+.inputfile-7:focus + label strong,
+.inputfile-7.has-focus + label strong,
+.inputfile-7 + label:hover strong {
+    background-color: #626262;
+}
+
+@media screen and (max-width: 50em) {
+	.inputfile-7 + label strong {
+		display: block;
+	}
+}
+
+.imagin{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    
+}
+
+@media only screen and (min-width: 768px){
+	.imagin{
+		transform: translate(-50%, 1%);
+    	width: 50%;
+	}
+}
+
+.imagin img{
+	width: 100%;
+	border-radius: 6px;
+}
+
+.input-field2{
+	position: absolute;
+	left: 50%;
+	transform: translate(-57%, 5%);
+	text-align: center;
+}
+
+.input-field2 a{
+	border: none;
+    margin: 20px;
+    padding: 16px 35px;
+    width: 220px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.6s;
+    background-size: 200%;
+    background-image: linear-gradient(to left, #c0392b,#e74c3c,#c0392b);
+    text-decoration: none;
+}
+
+.input-field2 a:hover{
+	background-position: right;
+}
+
+.input-field2 button{
+	border: none;
+	margin: 20px;
+	padding: 24px;
+	width: 220px;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	border-radius: 6px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.6s;
+	background-size: 200%;
+	background-image: linear-gradient(to left, #b2dafa,#84b6f4,#6a9eda);
+}
+
+.input-field2 button:hover{
+	background-position: right;
+}
+
+@media only screen and (max-width: 768px){  
+		.subir_img{
+		width: 87%;
+		position: relative;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-43%, 2%)
+	}
+
+	.imagin img{
+		width: 100%;
+		border-radius: 5px;
+	}
+
+	.btn-small span{
+		text-align: center;
+		float: left;
+		font-size: x-large;
+	}
+
+	.btn-small input{
+		 width: 0.1px;
+		 height: 0.1px;
+		 opacity: 0;
+		 overflow: hidden;
+		 position: absolute;
+		 z-index: -1;
+ 	}
+
+ 	label[for=" #foto"] {
+	 font-size: 14px;
+	 font-weight: 600;
+	 color: #fff;
+	 background-color: #106BA0;
+	 display: inline-block;
+	 transition: all .5s;
+	 cursor: pointer;
+	 padding: 15px 40px !important;
+	 text-transform: uppercase;
+	 width: fit-content;
+	 text-align: center;
+	}
+
+	.btn-small{
+		position: relative;
+		top: 50%;
+		left: 50%;
+		transform: translate(-56%, -6%);
+		margin: 0 auto;
+		width: 115%;
+		text-align: center;
+		background: #282828;
+		border-top: 5px solid #888a8a;
+		padding: 20px 0;
+		border-radius: 6px;
+	}
+
+	.btn-small p{
+		display: none;
+	}
+
+	.inputfile-7 + label {
+		left: 2%;
+		max-width: 94%;
+		font-size: 0px;
+	}
+
+	.inputfile + label svg{
+		width: 2em;
+		margin-top: 0;
+    	margin-right: 0;
+	}
+
+	.iborrainputfile{
+		font-size: 30px;
+	}
+
+	.imagin{
+		position: relative;
+		top: 50%;
+		left: -7%;
+	}
+
+	.input-field2{
+		position: absolute;
+		left: 50%;
+		transform: translate(-57%, 5%);
+		text-align: center;
+	}
+
+	.input-field2 button{
+		border: none;
+		margin: 20px;
+		padding: 24px;
+		width: 220px;
+		font-family: sans-serif;
+		text-transform: uppercase;
+		border-radius: 6px;
+		cursor: pointer;
+		color: #fff;
+		transition: 0.6s;
+    	background-size: 200%;
+		background-image: linear-gradient(to left, #b2dafa,#84b6f4,#6a9eda);
+	}
+
+	.input-field2 button:hover{
+		background-position: right;
+	}
+}
+
+#yourBtn {
+	position: relative;
+	top: 150px;
+	font-family: calibri;
+	width: 150px;
+	padding: 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border: 1px dashed #BBB;
+	text-align: center;
+	background-color: #DDD;
+	cursor: pointer;
+  }
