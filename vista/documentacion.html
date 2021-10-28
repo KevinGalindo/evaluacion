@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es" ng-app="appdocs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <script src="../js/angular.min.js"></script>
+    <script src="../js/informe.js"></script>
+    <link rel="stylesheet" href="../css/document.css">
+    <title>Documentacion</title>
+</head>
+<body>
+    
+    <div ng-controller="controlador" class="Body">
+
+        <div class="volver"><a href="../"><i class="search-icon fas fa-arrow-left"></i></a></div>
+
+        <div class="buscar">
+        
+            <input class="search-text" type="text" id="id" ng-model="mitexto" ng-change="cargar_busc()" placeholder=" Buscar...">
+
+            <i class="search-icon fas fa-search" ng-click="cargar_info()"></i>
+
+
+        </div>
+
+        <div class="documents">
+            <div ng-repeat="datos in informeFiltro" class="datos">
+
+                <div class="title"> 
+                    <h1>{{datos.indice}}</h1>
+                </div>
+
+                <div class="text">
+                    <p>{{datos.text}}</p>
+                </div>
+
+                <div class="text">
+                    <p>{{datos.text2}}</p>
+                    <div> 
+                        <li><a>{{datos.li}}</a></li>
+                        <li><a>{{datos.li2}}</a></li>
+                        <li><a>{{datos.li3}}</a></li>           
+                        <li><a>{{datos.li4}}</a></li>
+                    </div>            
+                </div>
+
+                <div class="text">
+                    <p>{{datos.text3}}</p>
+                </div>
+                
+                <div class="text">
+                    <p>{{datos.text4}}</p>
+                </div>
+
+                <div class="text">
+                    <p>{{datos.text5}}</p>
+                </div>
+
+                <div class="text">
+                    <p>{{datos.text6}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
